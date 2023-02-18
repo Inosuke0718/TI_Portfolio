@@ -1,0 +1,130 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  background-color: white;
+  -webkit-animation: container-fadeout 1s linear forwards 3s;
+          animation: container-fadeout 1s linear forwards 3s;
+}
+
+@-webkit-keyframes container-fadeout {
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes container-fadeout {
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  /*  border: solid 2px #4bff9e;*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.extend {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.extend .line {
+  border: solid;
+  border-color: black;
+  width: 100%;
+  height: 25%;
+}
+
+.extend div:nth-child(2n) {
+  transform-origin: left;
+  background-color: black;
+}
+
+.extend div:nth-child(2n-1) {
+  transform-origin: right;
+  background-color: black;
+}
+
+.main-contents {
+  width: 50%;
+  top: 50%; /* 親要素の半分下にずらす */
+  left: 50%; /* 親要素の半分右にずらす */
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  color: white;
+  font-size: 50px;
+}
+
+.main-contents {
+  -webkit-animation: example 3.5s ease 1.5s 1 forwards;
+  animation: example 3.5s ease 1.5s 1 forwards;
+}
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+
+/****************************
+* animation
+****************************/
+.extend div:nth-child(n) {
+  -webkit-animation: extend 2s, fadeout-anim 15s linear forwards 2s;
+          animation: extend 2s, fadeout-anim 15s linear forwards 2s;
+}
+
+/****************************
+* keyframes
+****************************/
+@-webkit-keyframes extend {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes extend {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@-webkit-keyframes fadeout-anim {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeout-anim {
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=loading.css.map */

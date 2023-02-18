@@ -1,0 +1,57 @@
+.history {
+  font-size: 40px;
+  width: 100%;
+  font-family: futura;
+  border-bottom: solid;
+  border-color: rgb(82, 79, 79);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  background-color: rgba(244, 245, 243, 0.9843137255);
+  position: relative;
+}
+.history .iconCWT {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding-top: 9px;
+}
+
+.all-wrapp {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100vh;
+  width: 100%;
+}
+.all-wrapp .result-wrapp {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.all-wrapp .result-wrapp .totalCost__uni-number {
+  display: flex;
+}
+.all-wrapp .result-wrapp .totalCost__uni-number .totalCost__unit {
+  font-size: 50px;
+  padding-right: 15px;
+}
+.all-wrapp .result-wrapp .totalCost__uni-number .totalCost__number {
+  font-size: 50px;
+}
+.all-wrapp .table-wrapp {
+  display: flex;
+  flex-direction: column;
+}
+.all-wrapp .table-wrapp #title {
+  font-size: 20px;
+}
+.all-wrapp .table-wrapp table {
+  font-size: 1vw;
+  color: rgb(54, 54, 54);
+}
+.all-wrapp .table-wrapp table th, .all-wrapp .table-wrapp table td, .all-wrapp .table-wrapp table tr {
+  border-bottom: solid 1px silver;
+  padding-left: 8px;
+}/*# sourceMappingURL=show.css.map */

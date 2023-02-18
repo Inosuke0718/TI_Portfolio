@@ -1,0 +1,120 @@
+.wrapp-sw2 {
+  display: none;
+  height: 50vh;
+  width: 100%;
+}
+.wrapp-sw2 main.cntdwn {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.wrapp-sw2 main.cntdwn section.cost {
+  display: flex;
+  height: 60%;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost1__title {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost1__contents {
+  display: flex;
+  align-items: center;
+  font-size: 65px;
+  margin: 0 10px;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost1__contents--unit {
+  margin: 0 10px;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost2 {
+  margin: auto;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost2__title {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost2__contents {
+  display: flex;
+  align-items: center;
+  font-size: 90px;
+  margin: 10px 15px 0 0;
+}
+.wrapp-sw2 main.cntdwn section.cost .cost2__contents--unit {
+  margin: 0 10px;
+}
+.wrapp-sw2 main.cntdwn .time {
+  height: 30%;
+  margin: 5px 5px;
+}
+.wrapp-sw2 main.cntdwn .time__title {
+  font-size: 16px;
+  text-align: center;
+}
+.wrapp-sw2 main.cntdwn .time__timer {
+  font-size: 50px;
+}
+.wrapp-sw2 main.cntdwn .input-time {
+  margin: 5px 5px;
+}
+.wrapp-sw2 main.cntdwn .input-time__title {
+  text-align: center;
+}
+.wrapp-sw2 main.cntdwn .input-time .input-time__reg {
+  display: flex;
+  line-height: 42px;
+}
+.wrapp-sw2 main.cntdwn .input-time .input-time__reg--h {
+  width: 40px;
+  margin: 10px 10px;
+  border: none;
+}
+.wrapp-sw2 main.cntdwn .input-time .input-time__reg--m {
+  width: 40px;
+  margin: 10px 10px;
+  border: none;
+}
+.wrapp-sw2 main.cntdwn .input-time .input-time__reg--s {
+  width: 40px;
+  margin: 10px 10px;
+  border: none;
+}
+.wrapp-sw2 main.cntdwn .cnddwn-btn {
+  height: 10%;
+  display: flex;
+  margin: 10px 0;
+}
+.wrapp-sw2 main.cntdwn .cnddwn-btn #cntdwn-play {
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.wrapp-sw2 main.cntdwn .cnddwn-btn #cntdwn-stop {
+  color: white;
+  display: none;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.wrapp-sw2 main.cntdwn .cnddwn-btn #cntdwn-reset {
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0 15px;
+}
+.wrapp-sw2 main.cntdwn .cnddwn-btn #cntdwn-save {
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+}/*# sourceMappingURL=cntdwn.css.map */

@@ -1,0 +1,143 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: futura;
+}
+.wrapper .account-page .account-page__inner {
+  width: 500px;
+  margin: auto;
+  padding: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.wrapper .account-page .account-page__inner .account-page__guest {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  padding: 0 30px;
+  margin-top: 25px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(94, 89, 91, 0.5);
+}
+.wrapper .account-page .account-page__inner a {
+  color: rgb(252, 221, 46);
+  text-decoration: none;
+}
+.wrapper .account-page .account-page__inner:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.wrapper .account-page .account-page__header h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 200;
+}
+.wrapper .account-page .account-page__header h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  margin-top: 5px;
+}
+.wrapper .account-page .account-page__header h5 {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 200;
+}
+.wrapper .account-page .account-page__header .btn {
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(70, 68, 68, 0.5);
+  font-size: 14px;
+  text-decoration: none;
+}
+.wrapper .account-page .field {
+  margin-bottom: 10px;
+}
+.wrapper .account-page .field .field-label {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 200;
+}
+.wrapper .account-page .field .field-label i {
+  font-size: 11px;
+}
+.wrapper .account-page .field .field-input input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  outline: none;
+}
+.wrapper .account-page .btn {
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  padding: 0 30px;
+  line-height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+}
+.wrapper .account-page .btn a.login-btm {
+  width: 22px;
+  height: 22px;
+}
+.wrapper .account-page input[type=submit] {
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(126, 122, 123, 0.5);
+}
+.wrapper .account-page .field-label .field_with_errors {
+  display: inline-block;
+  color: #d65f4c;
+  font-weight: 400;
+}
+.wrapper .account-page #user_birthday_1i {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.wrapper .account-page #user_birthday_2i {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.wrapper .account-page #user_birthday_3i {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.wrapper .account-page .field-input .field_with_errors {
+  position: relative;
+}
+.wrapper .account-page .field-input .field_with_errors:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: #d65f4c;
+}
+.wrapper #error_explanation {
+  margin: 20px 0;
+  padding: 20px 30px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.wrapper #error_explanation h2 {
+  margin-bottom: 10px;
+  color: #d65f4c;
+  font-size: 14px;
+}
+.wrapper #error_explanation ul {
+  margin: 0;
+  padding-left: 17px;
+  list-style: square;
+}
+.wrapper #error_explanation li {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}/*# sourceMappingURL=user.css.map */
