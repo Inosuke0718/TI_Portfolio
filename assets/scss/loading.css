@@ -65,6 +65,7 @@ html, body {
 }
 
 .main-contents {
+  min-width: 400px;
   width: 50%;
   top: 50%; /* 親要素の半分下にずらす */
   left: 50%; /* 親要素の半分右にずらす */

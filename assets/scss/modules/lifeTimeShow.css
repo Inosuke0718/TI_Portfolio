@@ -3,7 +3,7 @@ body.slide {
   height: auto;
 }
 body.slide p.lifetime {
-  font-size: 60px;
+  font-size: min(10vw,100px);
   font-family: Avenir;
   margin-right: 30px;
   color: rgba(255, 255, 255, 0.86);
@@ -11,7 +11,7 @@ body.slide p.lifetime {
 }
 body.slide h1.time-unit {
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: min(5vw,40px);
   margin-top: -10px;
 }
 body.slide .slideshow {
@@ -29,8 +29,8 @@ body.slide .slideContents {
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   transition: transform 0.6s;
   width: 100%;
   height: auto;
